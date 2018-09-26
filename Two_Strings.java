@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Two_Strings {
 
     // Complete the twoStrings function below.
     static String twoStrings(String s1, String s2) {
@@ -23,11 +23,11 @@ public class Solution {
                     result="YES";
                     break;
                     //result+=s1.charAt(k);
-                    //System.out.println(k);
+                    //System.out.println(k);    
             }
-
+                                        
             }
-
+            
         }
         //System.out.println("checker");
         return result;
